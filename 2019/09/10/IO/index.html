@@ -96,25 +96,28 @@
 
 
 
-  <meta name="keywords" content="Java">
+  <meta name="description" content="Java 工程师说起 IO，基本都会脱口而出三个词： BIO – Blocking IO，NIO – Non-Blocking IO，AIO – Asynchronous IO。如果表示不知道，恭喜你，你还没被洗脑。很多人在讨论这三个术语时，会把 NIO 当成 java.nio 也就是 “New IO”，只能说你可能真有点萌，再如何 oracle 也没实现 java.bio 和 java.aio。">
+<meta name="keywords" content="Java">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java 基础——IO">
-<meta property="og:url" content="http://zephjjiang.com/2019/09/10/IO/IO/index.html">
+<meta property="og:title" content="Java 基础——I&#x2F;O">
+<meta property="og:url" content="http://zephjjiang.com/2019/09/10/IO/index.html">
 <meta property="og:site_name" content="Zeph">
+<meta property="og:description" content="Java 工程师说起 IO，基本都会脱口而出三个词： BIO – Blocking IO，NIO – Non-Blocking IO，AIO – Asynchronous IO。如果表示不知道，恭喜你，你还没被洗脑。很多人在讨论这三个术语时，会把 NIO 当成 java.nio 也就是 “New IO”，只能说你可能真有点萌，再如何 oracle 也没实现 java.bio 和 java.aio。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://zephjjiang.com/2019/09/10/IO/IO/流输入.png">
-<meta property="og:image" content="http://zephjjiang.com/2019/09/10/IO/IO/流输出.png">
-<meta property="og:updated_time" content="2019-09-09T22:17:37.189Z">
+<meta property="og:image" content="http://zephjjiang.com/.com//流输入.png">
+<meta property="og:image" content="http://zephjjiang.com/.com//流输出.png">
+<meta property="og:updated_time" content="2019-11-01T17:39:09.507Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Java 基础——IO">
-<meta name="twitter:image" content="http://zephjjiang.com/2019/09/10/IO/IO/流输入.png">
+<meta name="twitter:title" content="Java 基础——I&#x2F;O">
+<meta name="twitter:description" content="Java 工程师说起 IO，基本都会脱口而出三个词： BIO – Blocking IO，NIO – Non-Blocking IO，AIO – Asynchronous IO。如果表示不知道，恭喜你，你还没被洗脑。很多人在讨论这三个术语时，会把 NIO 当成 java.nio 也就是 “New IO”，只能说你可能真有点萌，再如何 oracle 也没实现 java.bio 和 java.aio。">
+<meta name="twitter:image" content="http://zephjjiang.com/.com//流输入.png">
 
 
 
 
 
 
-  <link rel="canonical" href="http://zephjjiang.com/2019/09/10/IO/IO/">
+  <link rel="canonical" href="http://zephjjiang.com/2019/09/10/IO/">
 
 
 
@@ -124,7 +127,7 @@
   };
 </script>
 
-  <title>Java 基础——IO | Zeph</title>
+  <title>Java 基础——I/O | Zeph</title>
   
 
 
@@ -299,7 +302,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zephjjiang.com/2019/09/10/IO/IO/">
+    <link itemprop="mainEntityOfPage" href="http://zephjjiang.com/2019/09/10/IO/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zeph Jiang">
@@ -316,7 +319,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Java 基础——IO
+          <h1 class="post-title" itemprop="name headline">Java 基础——I/O
 
               
             
@@ -342,12 +345,24 @@
                 
               
 
-              <time title="创建时间：2019-09-10 06:00:00 / 修改时间：06:17:37" itemprop="dateCreated datePublished" datetime="2019-09-10T06:00:00+08:00">2019-09-10</time>
+              <time title="创建时间：2019-09-10 06:00:00" itemprop="dateCreated datePublished" datetime="2019-09-10T06:00:00+08:00">2019-09-10</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-11-02 01:39:09" itemprop="dateModified" datetime="2019-11-02T01:39:09+08:00">2019-11-02</time>
               
             
           </span>
@@ -388,8 +403,19 @@
       
 
       
-        <p><img src="流输入.png" alt="流输入"></p>
-<p><img src="流输出.png" alt="流输出"></p>
+        <p>Java 工程师说起 IO，基本都会脱口而出三个词： <code>BIO</code> – <code>Blocking IO</code>，<code>NIO</code> – <code>Non-Blocking IO</code>，<code>AIO</code> – <code>Asynchronous IO</code>。如果表示不知道，恭喜你，你还没被洗脑。很多人在讨论这三个术语时，会把 <code>NIO</code> 当成 <code>java.nio</code> 也就是 “New IO”，只能说你可能真有点萌，再如何 oracle 也没实现 <code>java.bio</code> 和 <code>java.aio</code>。这些术语并不是 Java 专有的，因为他们对标的是 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MjA4MTExMw==&amp;mid=2247484746&amp;idx=1&amp;sn=c0a7f9129d780786cabfcac0a8aa6bb7&amp;source=41#wechat_redirect" target="_blank" rel="noopener">操作系统的 IO 模型</a>，本文尽可能<strong>略过</strong>，有兴趣自阅。总的来说，各语言对操作系统的 IO 模型进行封装和实现，归结起来就是这三种。</p>
+<p><del>IO</del> I/O（下文可能为了方便还是会写成IO），指的是各种数据源之间的数据交换。</p>
+<p>思考一个问题：内存块之间的数据交换是 IO 吗？在我看来，如果此时把数据源的参照物当成是内存块，那么他们之间的数据交换是 IO，而如果把参照物认为是程序，那么这不算IO。</p>
+<p>阅读 Java IO 相关的文档就会发现，Java 的 I/O 更多是以程序本身为数据源的参照物，想方设法与外部交互。Java 的基本 I/O 是流式 I/O，即 I/O Streams。</p>
+<a id="more"></a>
+<p>Input：</p>
+<p><img src="/.com//流输入.png" alt="流输入"></p>
+<p>Output：</p>
+<p><img src="/.com//流输出.png" alt="流输出"></p>
+<p>(有空填坑)</p>
+<blockquote>
+<p>推荐阅读1 <a href="https://docs.oracle.com/javase/tutorial/essential/io/index.html" target="_blank" rel="noopener">IO 入门官方文档</a></p>
+</blockquote>
 
       
     </div>
@@ -745,7 +771,7 @@
   
     <script>
   window.livereOptions = {
-    refer: '2019/09/10/IO/IO/'
+    refer: '2019/09/10/IO/'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
