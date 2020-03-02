@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-CN">
+<html class="theme-next gemini use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,7 +72,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Gemini',
     version: '7.0.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false,"dimmer":false},
     fancybox: false,
@@ -100,24 +100,24 @@
 <meta name="keywords" content="Java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java 基础——I&#x2F;O">
-<meta property="og:url" content="http://zephjjiang.com/2019/09/10/Java基础IO/index.html">
-<meta property="og:site_name" content="Zeph">
+<meta property="og:url" content="http://yoursite.com/2019/09/10/Java基础IO/index.html">
+<meta property="og:site_name" content="博客名字还没起好">
 <meta property="og:description" content="Java &amp;#x5DE5;&amp;#x7A0B;&amp;#x5E08;&amp;#x8BF4;&amp;#x8D77; IO&amp;#xFF0C;&amp;#x57FA;&amp;#x672C;&amp;#x90FD;&amp;#x4F1A;&amp;#x8131;&amp;#x53E3;&amp;#x800C;&amp;#x51FA;&amp;#x4E09;&amp;#x4E2A;&amp;#x8BCD;&amp;#xFF1A; BIO &amp;#x2013; Blocking IO&amp;#xFF0C;NIO &amp;#x2013; No">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://zephjjiang.com/2019/09/10/Java基础IO/流输入.png">
-<meta property="og:image" content="http://zephjjiang.com/2019/09/10/Java基础IO/stream-output.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/10/Java基础IO/流输入.png">
+<meta property="og:image" content="http://yoursite.com/2019/09/10/Java基础IO/stream-output.png">
 <meta property="og:updated_time" content="2019-11-01T18:17:40.442Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java 基础——I&#x2F;O">
 <meta name="twitter:description" content="Java &amp;#x5DE5;&amp;#x7A0B;&amp;#x5E08;&amp;#x8BF4;&amp;#x8D77; IO&amp;#xFF0C;&amp;#x57FA;&amp;#x672C;&amp;#x90FD;&amp;#x4F1A;&amp;#x8131;&amp;#x53E3;&amp;#x800C;&amp;#x51FA;&amp;#x4E09;&amp;#x4E2A;&amp;#x8BCD;&amp;#xFF1A; BIO &amp;#x2013; Blocking IO&amp;#xFF0C;NIO &amp;#x2013; No">
-<meta name="twitter:image" content="http://zephjjiang.com/2019/09/10/Java基础IO/流输入.png">
+<meta name="twitter:image" content="http://yoursite.com/2019/09/10/Java基础IO/流输入.png">
 
 
 
 
 
 
-  <link rel="canonical" href="http://zephjjiang.com/2019/09/10/Java基础IO/">
+  <link rel="canonical" href="http://yoursite.com/2019/09/10/Java基础IO/">
 
 
 
@@ -127,7 +127,7 @@
   };
 </script>
 
-  <title>Java 基础——I/O | Zeph</title>
+  <title>Java 基础——I/O | 博客名字还没起好</title>
   
 
 
@@ -196,7 +196,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Zeph</span>
+        <span class="site-title">博客名字还没起好</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -232,8 +232,67 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">3</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">3</span></a>
 
   </li>
         
@@ -249,8 +308,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">4</span></a>
 
   </li>
 
@@ -258,9 +319,6 @@
       
     </ul>
   
-
-  
-    
 
   
 
@@ -283,6 +341,9 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+            
+
+          
           <div id="content" class="content">
             
 
@@ -302,16 +363,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zephjjiang.com/2019/09/10/Java基础IO/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/10/Java基础IO/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zeph Jiang">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="心里的呼唤，总在徘徊。风中的云彩，它向我走来。">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Zeph">
+      <meta itemprop="name" content="博客名字还没起好">
     </span>
 
     
@@ -519,7 +580,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Zeph Jiang</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">心里的呼唤，总在徘徊。风中的云彩，它向我走来。</p>
           </div>
 
           
@@ -639,7 +700,7 @@
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.0.0</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.0</div>
 
 
 
@@ -753,7 +814,9 @@
   
 
 
-  <script src="/js/src/schemes/muse.js?v=7.0.0"></script>
+  <script src="/js/src/affix.js?v=7.0.0"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.0"></script>
 
 
 
