@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Zeph Jiang Blog</title>
+        <link>https://zephjiang.github.io/blog</link>
+        <description>Zeph Jiang Blog</description>
+        <lastBuildDate>Fri, 08 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[关于我]]></title>
+            <link>https://zephjiang.github.io/blog/2022/04/08/about</link>
+            <guid>/2022/04/08/about</guid>
+            <pubDate>Fri, 08 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[95后，男，2017年在广东某双一流本科毕业。]]></description>
+            <content:encoded><![CDATA[<p>95后，男，2017年在广东某双一流本科毕业。</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="写博客的目的">写博客的目的<a class="hash-link" href="#写博客的目的" title="Direct link to heading">​</a></h3><p>目前正在梳理各种碎片技术点，从而形成完整的技术栈。这几年回过头来，在这碎片化上吃了不少亏也浪费了很多时间，时光不再，但引以为戒。</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="内容">内容<a class="hash-link" href="#内容" title="Direct link to heading">​</a></h3><p>算法，数据结构，操作系统，网络，开发语言，框架，中间件等等。写文章不仅是创作、输出的过程，同时也是个学习的过程。对于一些专栏专题文章、视频、付费教程、书籍等等，会在介绍页面说明，对于相对零散的知识点会在该文章下面给出参考文章的链接。</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="声明">声明<a class="hash-link" href="#声明" title="Direct link to heading">​</a></h3><p>转载前请先咨询本人。</p><p><img loading="lazy" alt="1" src="/assets/images/logo-293c0df304c3bda7523626ea9b249027.jpeg" width="690" height="690" class="img_E7b_"></p>]]></content:encoded>
+            <author>zephjiang@163.com (Zeph Jiang)</author>
+        </item>
+    </channel>
+</rss>

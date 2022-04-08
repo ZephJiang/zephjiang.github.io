@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[10],{2506:function(e){e.exports=JSON.parse('{"title":"JUC","slug":"/category/juc","permalink":"/category/juc","navigation":{"previous":{"title":"Overview","permalink":"/java/io/overview"},"next":{"title":"Overview","permalink":"/java/juc/overview"}}}')}}]);
